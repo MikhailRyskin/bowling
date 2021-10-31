@@ -1,14 +1,8 @@
 import unittest
-#  Импорт нужно поправить.
-#  У вас возможно жт ои работаетЮ но только лишь потому что вы промаркировали директорию"mark directory as sources root"
 from lesson_014.bowling import get_score, check_game_result, check_frame, StrikeError, SpareError
 
 
 class GetScoreTest(unittest.TestCase):
-    #  Тестов должно быть минимум  8-10
-    #  Для ловли исключений удобнее использовать "assertRaises"
-    #  self.assertRaises(ValueError, get_score, 'rrrrrrrrrrrrrrrrrrrr')
-
     def test_strike(self):
         result = get_score('XXXXXXXXXX')
         self.assertEqual(result, 200, 'не работает подсчёт strike')
