@@ -14,7 +14,7 @@ pip install -r requirements.txt
 Находясь в папке проекта, запустите:  для подсчёта очков файл 01_score.py -h,  
 для формирования файла с результатами турнира 02_tournament.py -h.
 ```
-python 01_score.py -h
+01_score.py -h
 или
 02_tournament.py -h
 ```
